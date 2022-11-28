@@ -1,0 +1,23 @@
+{
+  "name": "noteapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://sampoos.github.io/notesExpress",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
